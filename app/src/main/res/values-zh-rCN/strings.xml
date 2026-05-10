@@ -1,0 +1,182 @@
+<resources>
+    <string name="app_name">Nursemaid</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="highc">
+        <item>40</item>
+        <item>39.5</item>
+        <item>39</item>
+        <item>38.5</item>
+        <item>38</item>
+        <item>37.5</item>
+        <item>37</item>
+    </string-array>
+
+    <string-array name="lowc">
+        <item>36</item>
+        <item>35.5</item>
+        <item>35</item>
+        <item>34.5</item>
+        <item>34</item>
+        <item>33.5</item>
+        <item>33</item>
+    </string-array>
+
+    <string-array name="highf">
+        <item>104</item>
+        <item>103</item>
+        <item>102</item>
+        <item>101</item>
+        <item>100</item>
+        <item>99</item>
+        <item>98</item>
+    </string-array>
+
+    <string-array name="lowf">
+        <item>97</item>
+        <item>96</item>
+        <item>95</item>
+        <item>94</item>
+        <item>93</item>
+        <item>92</item>
+        <item>91</item>
+    </string-array>
+
+    <string-array name="fast">
+        <item>70</item>
+        <item>65</item>
+        <item>60</item>
+        <item>55</item>
+        <item>50</item>
+        <item>45</item>
+    </string-array>
+
+    <string-array name="slow">
+        <item>35</item>
+        <item>30</item>
+        <item>25</item>
+        <item>20</item>
+        <item>15</item>
+        <item>10</item>
+    </string-array>
+
+
+    <string name="tag">Tag数量</string>
+    <string name="mode">模式选择</string>
+    <string name="notification">推播通知</string>
+    <string name="Kick_notification">踢被通知</string>
+    <string name="Tempunit">温度单位</string>
+    <string name="tempwarning">温度警示</string>   
+    <string name="modeofupdate">情境设定</string>    
+    <string name="breathing">呼吸警示</string>    
+    <string name="single">单数</string>    
+    <string name="multi">多数</string>    
+    <string name="scan">扫描</string>    
+    <string name="notif">推播</string>    
+    <string name="enable">启用</string>    
+    <string name="disable">禁用</string>    
+    <string name="nor">一般</string>    
+    <string name="sleep">睡眠</string>    
+    <string name="Long">长时</string>    
+    <string name="High">高温警示</string>    
+    <string name="Low">低温警示</string>    
+    <string name="Fast">急促警示</string>    
+    <string name="Slow">缓慢警示</string>    
+    <string name="BPM">次/分钟</string>    
+    <string name="single_home_screen">单数主画面</string>    
+    <string name="multi_home_screen">多数主画面</string>    
+    <string name="temp_chart">温度曲线图</string>    
+    <string name="temp_code">温度校正码</string>
+    <string name="username">使用者</string>
+    <string name="setup">设定</string>    
+    <string name="information">关于</string>    
+
+    <string name="dialog_title_setListItemName">请输入要修改的名字</string>
+    <string name="dialog_Message_NoEnter">请输入名字</string>
+    <string name="info">\n         华星科技股份有限公司 \n\n        http://www.sinopulsar.com\n\n\n\n        APP版本: v1.203\n\n\n\n说明:\n\n\n1. 须配合华星科技公司的智能保姆与其蓝牙模组使用。 \n\n\n2. 欲购买智能保姆与蓝牙模组请至下列购物网站订购: \n http://www.sinopulsar.com\n\n\n3. 所量测的温度与呼吸次数供使用者参考，若有疑虑请医护人员再次测温与确认。 \n\n        </string>
+    <string name="quick">迅速</string>
+    <string name="chinsice0">提示窗口</string>
+    <string name="chinsice1">Tag需先插入好感测元件(Sensor)后再开启Tag电源准备</string>
+    <string name="chinsice1_2">长按MAC-Address图示3秒后，可进行设备移除及注册</string>
+
+    <string name="chinsice2">确认</string>
+    <string name="chinsice3">写入的校正码与情境时间是否正确?</string>
+    <string name="chinsice4">否</string>
+    <string name="chinsice5">是</string>
+
+    <string name="chinsice10">取消设定</string>
+    <string name="chinsice11">连线成功</string>
+    <string name="chinsice12">连线失败</string>
+    <string name="chinsice13">结束连线</string>
+    <string name="chinsice14">写入成功</string>
+    <string name="chinsice15">写入失败</string>
+    <string name="chinsice16">读取资料成功</string>
+    <string name="chinsice17">读取资料失败</string>
+    <string name="support_temperature">此tag不支援温度校正码功能</string>
+    <string name="a_scanning_sensors">扫描附近感测器中，请稍等!</string>
+
+    <string name="login_ask_title">登入使用者</string>
+    <string name="login_ask_content">开启推拨模式需使用Wi-Fi或行动数据并登入使用者，按下【确定】后可在登入页面登入或注册帐号!</string>
+    <string name="login_page_ac">帐号: </string>
+    <string name="login_page_pw">密码: </string>
+    <string name="login_page_login_button">登入</string>
+    <string name="login_page_register_button">注册</string>
+    <string name="regist_account_success">注册成功!</string>
+    <string name="regist_account_fail">注册失败!此帐号已被申请</string>
+    <string name="login_success_toast">登入成功!</string>
+    <string name="login_password_not_correct_toast">密码错误!</string>
+    <string name="login_account_not_exist_toast">帐号不存在!</string>
+    <string name="login_can_not_null">不可空白帐号或密码!</string>
+    <string name="login_process">登入中......</string>
+    <string name="language">zh-CHS</string>
+    <string name="confirm_button">确定</string>
+    <string name="NotificationServer">推拨伺服器</string>
+    <string name="setip">请输入IP</string>
+    <string name ="check_internet">请检查网络连接状态</string>
+    <string name ="logout_ask_title">登出使用者</string>
+    <string name ="logout_ask_content">关闭推拨模式将会登出使用者，并进入蓝芽近端扫描模式！</string>
+    <string name ="logout_success">登出成功！</string>
+    <string name ="logout_fail">登出失败！</string>
+    <string name ="logout_process">登出中...... </string>
+
+    <string name="unregister_button">解除注册</string>
+    <string name="tag_regist_ask_title">是否注册并启用此配备?</string>
+    <string name="tag_regist_ask_content">注册后可接收此配备的湿度资料与推拨讯息</string>
+    <string name="register_button">注册配备</string>
+    <string name="enable_success">启用成功!</string>
+    <string name="disable_success">禁用成功!</string>
+    <string name="unregist_success">解除成功!</string>
+    <string name="token_not_correct">token 错误，此帐号可能被其他收手机登入!</string>
+    <string name="tag_not_exist_in_database">此配备不存在于资料库中，请先透过hub上传此配备资料!</string>
+    <string name="chang_tag_status_title">变更此设备状态?</string>
+    <string name="cancel_button">取消</string>
+    <string name="chang_tag_status_content_tag_disable">点选【启用】可开启接收推播,【解除注册】则无法接收资料与推拨,并于下次开启App时消失</string>
+    <string name="enable_button">启用</string>
+    <string name="chang_tag_status_content_tag_enable">点选【禁用】可暂停接收推播，【解除注册】则无法接收资料与推拨，并于下次开启App时消失</string>
+    <string name="disable_button">禁用</string>
+    <string name="chosemul">选择要注册的tag</string>
+    <string name="nofind">查无tag，请退出推波模式</string>
+    <string name ="nofindscan">查无感测器装置，请重新扫描</string>
+
+    <string name="exitmsg">确定要结束应用程式吗?</string>
+    <string name="check_temperature">请先开始量测温度吧</string>
+    <string name="tagrssi">接收不到tag资料，请将tag移至手机附近!</string>
+    <string name="Temperature_unit">温度单位</string>
+    <string name="notempdata">这小时没有资料唷！ \n将显示最后一笔资料！</string>
+    <string name="Temperature_graph">温度曲线图</string>
+    <string name="time">时间</string>
+    <string name="minute">分钟</string>
+    <string name="hour">时</string>
+    <string name="Status_value">状态值: </string>
+    <string name="Status_value2">吐奶值: </string>
+    <string name="serverbroke">服务器联机错误，请检查推播服务器状态和IP地址是否正确?</string>
+    <string name="serverbrokeregi">服务器联机错误，请检查推播服务器状态和IP地址是否正确，点击确认后将返回蓝芽近端扫描模式</string>
+
+
+    <string name="temperature">温度</string>
+    <string name="Temperature_chart">温度图表</string>
+
+
+</resources>

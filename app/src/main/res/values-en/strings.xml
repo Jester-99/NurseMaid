@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Nursemaid</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="highc">
+        <item>40</item>
+        <item>39.5</item>
+        <item>39</item>
+        <item>38.5</item>
+        <item>38</item>
+        <item>37.5</item>
+        <item>37</item>
+    </string-array>
+
+    <string-array name="lowc">
+        <item>36</item>
+        <item>35.5</item>
+        <item>35</item>
+        <item>34.5</item>
+        <item>34</item>
+        <item>33.5</item>
+        <item>33</item>
+    </string-array>
+
+    <string-array name="highf">
+        <item>104</item>
+        <item>103</item>
+        <item>102</item>
+        <item>101</item>
+        <item>100</item>
+        <item>99</item>
+        <item>98</item>
+    </string-array>
+
+    <string-array name="lowf">
+        <item>97</item>
+        <item>96</item>
+        <item>95</item>
+        <item>94</item>
+        <item>93</item>
+        <item>92</item>
+        <item>91</item>
+    </string-array>
+
+    <string-array name="fast">
+        <item>70</item>
+        <item>65</item>
+        <item>60</item>
+        <item>55</item>
+        <item>50</item>
+        <item>45</item>
+    </string-array>
+
+    <string-array name="slow">
+        <item>35</item>
+        <item>30</item>
+        <item>25</item>
+        <item>20</item>
+        <item>15</item>
+        <item>10</item>
+    </string-array>
+
+    <string name="tag">Tag</string>
+    <string name="mode">Mode</string>
+    <string name="notification">Notification</string>
+    <string name="Kick_notification">  Kick off\nthe blanket </string>
+    <string name="Tempunit">Temp. Unit</string>
+    <string name="tempwarning">Temp. Warning</string>
+    <string name="modeofupdate">Scenario</string>
+    <string name="breathing">Breathing\nWarning</string>
+
+    <string name="single">Single</string>
+    <string name="multi">Multi.</string>
+    <string name="scan">Scan</string>
+    <string name="notif">Notifi.</string>
+    <string name="enable">Enable</string>
+    <string name="disable">Disable</string>
+    <string name="nor">Nor.</string>
+    <string name="Long">Long</string>
+    <string name="sleep">Sleep</string>
+    <string name="sick">Sick</string>
+    <string name="quick">Quick</string>
+
+    <string name="High">High</string>
+    <string name="Low">Low</string>
+    <string name="Fast">Fast</string>
+    <string name="Slow">Slow</string>
+    <string name="BPM">BPM</string>
+    <string name="single_home_screen">Single Home Screen</string>
+    <string name="multi_home_screen">Multi Home Screen</string>
+    <string name="temp_chart">Temperature Chart</string>
+    <string name="setup">Setting</string>
+    <string name="temp_code">Temp. Code</string>
+    <string name="username">User</string>
+    <string name="information">About</string>
+    <string name="dialog_title_setListItemName">Please type the name you want to modify</string>
+    <string name="dialog_Message_NoEnter">Please type the name</string>
+    <string name="info">"\n        Sinopulsar Technology Inc.\n\n        http://www.sinopulsar.com\n\n\n\n        APP Version:  v1.203\n\n\n\nNotice:\n\n\n1. The APP of Nursemaid need include using Sinopulsar’s Nursemaid products and Bluetooth 4.0 BLE Module.\n\n\n\n2. If you want to buy Nursemaid products and Bluetooth module, please go to below web store: \n http://www.sinopulsar.com\n\n\n\n3. The sensor of module measure for reference. If you have suspect, please medical people confirm it again.\n    "</string>
+    <string name="chinsice0">Notice</string>
+    <string name="chinsice1">Insert the Sensor and then turn on the Tag power.</string>
+    <string name="chinsice1_2">Long press the MAC-Address icon for 3 seconds, device removal and registration.</string>
+
+    <string name="chinsice2">Confirmed</string>
+    <string name="chinsice3">Are Temp. Code and Scenario correct?</string>
+    <string name="chinsice4">NO</string>
+    <string name="chinsice5">YES</string>
+
+    <string name="chinsice10"> cancel setting </string>
+    <string name="chinsice11"> connection is successful </string>
+    <string name="chinsice12"> connection failed </string>
+    <string name="chinsice13"> end connection </string>
+    <string name="chinsice14"> write success </string>
+    <string name="chinsice15"> write failed </string>
+    <string name="chinsice16"> read data successfully </string>
+    <string name="chinsice17"> failed to read data </string>
+    <string name="support_temperature">This tag does not support the temperature correction code function.</string>
+    <string name="a_scanning_sensors"> Scanning near sensors, please wait!</string>
+
+    <string name="login_ask_title">Login User</string>
+    <string name="login_ask_content"> Enable push mode to use Wi-Fi or mobile data and log in the user, press [OK] to log in or register account on the login page!</string>
+    <string name="login_page_ac">Account: </string>
+    <string name="login_page_pw">password: </string>
+    <string name="login_page_login_button">Login</string>
+    <string name="login_page_register_button">Registration</string>
+    <string name="regist_account_success">Successfully registered!</string>
+    <string name="regist_account_fail"> registration failed! This account has been applied for</string>
+    <string name="login_success_toast"> Login successful!</string>
+    <string name="login_password_not_correct_toast"> wrong password!</string>
+    <string name="login_account_not_exist_toast">Account does not exist!</string>
+    <string name="login_can_not_null"> can not blank account or password!</string>
+    <string name="login_process">Login...</string>
+    <string name="language">en</string>
+    <string name="confirm_button"> OK </string>
+    <string name="NotificationServer"> Push server </string>
+    <string name="setip">Please enter IP</string>
+    <string name="check_internet">Please check your network connection</string>
+    <string name="logout_ask_title">Log Out User</string>
+    <string name="logout_ask_content">Push mode will log out when you closing it. Then start in the scan mode of proximity Bluetooth</string>
+    <string name="logout_success">Log out successfully!</string>
+    <string name="logout_fail">Invalid Logout!</string>
+    <string name="logout_process">Logout......</string>
+
+    <string name="unregister_button">Unregister</string>
+    <string name="tag_regist_ask_title">Register this Device?</string>
+    <string name="tag_regist_ask_content">After registration, you can get the information about humidity and the push notification of this device.</string>
+    <string name="register_button">Register Device</string>
+    <string name="enable_success">Enable successfully!</string>
+    <string name="disable_success">Disable successfully!</string>
+    <string name="unregist_success">Unregister successfully!</string>
+    <string name="token_not_correct">token error, this account may be logged in by another phone!</string>
+    <string name="tag_not_exist_in_database">This equipment does not exist in the database. Please upload this equipment information via hub!</string>
+    <string name="chang_tag_status_title">Change this device status?</string>
+    <string name="cancel_button">cancel</string>
+    <string name="chang_tag_status_content_tag_disable">Click [Enable] to enable receiving push broadcast, [Unregister] will be unable to receive data and push, and disappear when you next open App</string>
+    <string name="enable_button">Enable</string>
+    <string name="disable_button">Disabled</string>
+    <string name="chang_tag_status_content_tag_enable">Click [Disable] to pause the call and [Unregister] will not receive data and push, and disappear when you next open the app</string>
+    <string name="chosemul">Found more. Choose your device.</string>
+    <string name="nofind">Check no tags, please exit push mode.</string>
+    <string name="exitmsg">Are you sure you want to end the application?</string>
+    <string name="check_temperature">Please start measuring temperature first.</string>
+    <string name="tagrssi">Can not receive tag data, please move the tag to your phone!</string>
+    <string name="Temperature_unit">Temperature unit</string>
+    <string name="notempdata">No data for this hour！\nThe last data will be displayed！</string>
+    <string name="Temperature_graph">Temperature graph</string>
+    <string name="time">time</string>
+    <string name="minute">minute</string>
+    <string name="hour">hour</string>
+    <string name="Status_value">Status value: </string>
+    <string name="Status_value2">Spitting value: </string>
+    <string name="nofindscan"> check no sensor device, please rescan </string>
+    <string name="serverbroke">Fail to connect to server. Please make sure server status normally and IP address correctly.</string>
+    <string name="serverbrokeregi">Fail to connect to server. Please make sure server status normally and IP address correctly. Then start in the scan mode of proximity Bluetooth.</string>
+
+    <string name="temperature">temperature</string>
+    <string name="Temperature_chart">Temperature chart</string>
+
+
+
+</resources>

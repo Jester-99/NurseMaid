@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single" >
+        <item
+            android:id="@+id/single"
+            android:title="@string/single_home_screen"
+            android:visible="true" />
+
+        <item
+            android:id="@+id/multiple"
+            android:title="@string/multi_home_screen"
+            android:visible="false" />
+        <item
+            android:id="@+id/TemperatureChart"
+            android:title="@string/temp_chart"
+            android:visible="true" />
+        <item
+            android:id="@+id/setup"
+            android:title="@string/setup"
+            android:visible="true" />
+<!--        <item-->
+<!--            android:id="@+id/NotificationServer"-->
+<!--            android:title="@string/NotificationServer" />-->
+        <item
+            android:id="@+id/Information"
+            android:title="@string/information"
+            android:visible="true" />
+    </group>
+
+
+
+</menu>
