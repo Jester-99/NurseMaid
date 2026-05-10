@@ -7,3 +7,9 @@
 /build
 /captures
 .externalNativeBuild
+
+# Security sensitive files
+*.jks
+*.keystore
+keystore.properties
+local.properties
